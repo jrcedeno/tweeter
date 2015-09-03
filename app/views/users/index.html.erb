@@ -1,0 +1,17 @@
+<% provide(:title, 'Users') %>
+<div class="row">
+  <div class="col-md-8">
+    <div class="timeline">
+      <h2 class="title">
+        All Users
+      </h2>
+      <ul class="tweets">
+        <% @users.each do |user| %>
+        <li class="tweet clearfix">
+          <%= gravatar_for user, size: 52 %><%= link_to user.name, user %>
+        </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

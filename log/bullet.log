@@ -1,0 +1,65 @@
+2015-08-25 11:34:14[WARN] user: julian
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2913101421735439670_70099019438920'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__1597810240751309206_70099016880740'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___590997021910488808_15562820'
+
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2913101421735439670_70099019438920'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__1597810240751309206_70099016880740'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___590997021910488808_15562820'2015-08-25 11:34:27[WARN] user: julian
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2913101421735439670_70099018591820'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__1597810240751309206_70099018928360'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___590997021910488808_70099012896920'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2913101421735439670_70099018591820'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__1597810240751309206_70099018928360'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___590997021910488808_70099012896920'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'2015-08-25 11:34:33[WARN] user: julian
+http://localhost:3000/tweets
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2913101421735439670_70099018591820'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__1597810240751309206_70099018928360'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___590997021910488808_70099012896920'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'
+
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim___2913101421735439670_70099018591820'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim__1597810240751309206_70099018928360'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim___590997021910488808_70099012896920'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/controllers/tweets_controller.rb:9:in `index'2015-08-25 18:49:07[WARN] user: julian
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__4007615792143032776_70219986881520'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4249298305028029690_49150540'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__3867245552987345336_39683720'
+
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.slim:2:in `_app_views_shared__feed_item_html_slim__4007615792143032776_70219986881520'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.slim:3:in `_app_views_shared__feed_html_slim___4249298305028029690_49150540'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.slim:11:in `_app_views_static_pages_home_html_slim__3867245552987345336_39683720'2015-08-27 19:40:14[WARN] user: julian
+http://localhost:3000/
+N+1 Query detected
+  Tweet => [:user]
+  Add to your finder: :includes => [:user]
+N+1 Query method call stack
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.erb:2:in `_app_views_shared__feed_item_html_erb__394845684026430714_70274428747300'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.erb:3:in `_app_views_shared__feed_html_erb__2895899003287168380_43753400'
+  /home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.erb:13:in `_app_views_static_pages_home_html_erb___2411030248715944336_70274426185760'
+
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed_item.html.erb:2:in `_app_views_shared__feed_item_html_erb__394845684026430714_70274428747300'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/shared/_feed.html.erb:3:in `_app_views_shared__feed_html_erb__2895899003287168380_43753400'
+/home/julian/Desktop/projects/tweeter/Rails-4-Twitter-Clone/app/views/static_pages/home.html.erb:13:in `_app_views_static_pages_home_html_erb___2411030248715944336_70274426185760'
